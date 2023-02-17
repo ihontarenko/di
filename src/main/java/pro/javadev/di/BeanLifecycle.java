@@ -1,2 +1,7 @@
-package pro.javadev.di;public interface BeanLifecycle {
+package pro.javadev.di;
+
+public interface BeanLifecycle {
+
+    void afterBeanInitialized();
+
 }

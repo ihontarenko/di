@@ -1,2 +1,8 @@
-package com.prikol;public class UserModel {
+package com.prikol;
+
+import pro.javadev.di.Bean;
+
+@Bean
+public class UserModel {
+
 }

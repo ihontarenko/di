@@ -1,2 +1,6 @@
-package pro.javadev.di;public class UserService {
+package pro.javadev.di;
+
+@Bean
+public class UserService {
+
 }

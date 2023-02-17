@@ -6,11 +6,11 @@ import pro.javadev.di.PackagesForScan;
 
 @Configuration
 @PackagesForScan(baseClasses = Process.class)
-public class DefaultConfig {
+public class BackendConfig {
 
     @Bean
-    public String applicationName() {
-        return "test_app";
+    public String backendName() {
+        return "backend_test_app";
     }
 
 }

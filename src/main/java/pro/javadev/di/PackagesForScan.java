@@ -1,2 +1,16 @@
-package pro.javadev.di;public @interface PackagesForScan {
+package pro.javadev.di;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface PackagesForScan {
+
+    String[] basePackages() default {};
+
+    Class<?>[] baseClasses() default {};
+
 }

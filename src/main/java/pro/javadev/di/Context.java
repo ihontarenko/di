@@ -1,2 +1,4 @@
-package pro.javadev.di;public interface Context {
+package pro.javadev.di;
+
+public interface Context {
 }
